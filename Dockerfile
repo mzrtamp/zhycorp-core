@@ -1,8 +1,8 @@
 FROM node:14-alpine as build-stage
 
 # NOTE: Change these as you want
-LABEL name "discordbot-template (build-stage)"
-LABEL maintainer "Hazmi35 <contact@hzmi.xyz>"
+LABEL name "zhycorp-core (build-stage)"
+LABEL maintainer "mozartrafi <mozartrafi@zhycorp.com>"
 
 WORKDIR /tmp/build
 
@@ -29,8 +29,8 @@ RUN yarn install --production
 FROM node:14-alpine
 
 # NOTE: Change these as you want
-LABEL name "discordbot-template"
-LABEL maintainer "Hazmi35 <contact@hzmi.xyz>"
+LABEL name "zhycorp-core (build-stage)"
+LABEL maintainer "mozartrafi <mozartrafi@zhycorp.com>"
 
 WORKDIR /app
 

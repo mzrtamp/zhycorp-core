@@ -14,8 +14,11 @@
 		"incremental": true,
 		"tsBuildInfoFile": ".cache/tsbuildcache",
 		"resolveJsonModule": true,
-		"typeRoots": ["node_modules/@types", "src/typings"]
+		"typeRoots": [
+			"node_modules/@types",
+			"src/typings"
+		]
 	},
 	"exclude": [],
-	"include": ["src/**/*"]
+	"include": ["src/**/*.ts", "src/**/*.json"]
 }
