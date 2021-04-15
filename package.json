@@ -2,7 +2,7 @@
   "name": "zhycorp-core",
   "version": "3.0.0",
   "private": true,
-  "description": "Zhycorp Nation Core Bot",
+  "description": "Zhycorp Core Bot",
   "repository": "https://github.com/zhycorp/zhycorp-core",
   "license": "AGPL-3.0",
   "author": "mozartrafi <mozartrafi@zhycorp.com>",
