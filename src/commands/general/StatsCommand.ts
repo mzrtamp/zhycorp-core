@@ -17,7 +17,7 @@ export class StatsCommand extends BaseCommand {
         const embed = new MessageEmbed()
             .setColor(this.client.config.embedColor)
             .setThumbnail("https://api.zhycorp.com/assets/images/logo.png")
-            .setAuthor(`${this.client.user?.username as string} - Zhycorp Nation's Servant Bot`, this.client.user?.displayAvatarURL())
+            .setAuthor(`${this.client.user?.username as string} - Zhycorp Core Bot`, this.client.user?.displayAvatarURL())
             .addField("**• STATIC**", `
 ***\`\`\`asciidoc
 Users           :: ${await this.client.getUsersCount()}

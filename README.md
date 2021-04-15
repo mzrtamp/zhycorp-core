@@ -1,2 +1,2 @@
 # zhycorp-core
-Zhycorp Nation Core Bot
+Zhycorp Core Bot
