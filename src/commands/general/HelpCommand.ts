@@ -25,7 +25,7 @@ export class HelpCommand extends BaseCommand {
             const embed = new MessageEmbed()
                 .setColor(this.client.config.embedColor)
                 .setThumbnail("https://api.zhycorp.com/assets/images/logo.png")
-                .setAuthor(`Command list of Zhycorp's Servant`, message.client.user?.displayAvatarURL({ format: "png", dynamic: true, size: 2048 }))
+                .setAuthor(`Command list of Zhycorp Core`, message.client.user?.displayAvatarURL({ format: "png", dynamic: true, size: 2048 }))
                 .setFooter(`Type ${message.client.config.prefix}help <command> for correct usage`, "https://cdn.discordapp.com/emojis/783266421912109076.png?v=1")
                 .setTimestamp();
             for (const category of message.client.commands.categories.array()) {
